@@ -36,6 +36,8 @@ print(C.make())
 ```console
 $ python3.6 main.py
 <__main__.C object at 0x7fb50825dd90>
+$ mypy main.py
+Success: no issues found in 1 source file
 ```
 
 ## Showing transformed source

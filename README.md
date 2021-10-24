@@ -83,7 +83,7 @@ future_annotations.register()
 from actual_main import main
 
 if __name__ == '__main__':
-    exit(main())
+    raise SystemExit(main())
 ```
 
 ## you may also like
